@@ -5,12 +5,12 @@
  * Description: the function loops through the structs
  * selector[] ment of the struct.
  * Return: a pointer
- * structype selector - Struct
+ * structype selector - Struct.
  */
 int (*driver(char *format))(char *format, va_list)
 {
 int i;
-structype selector[] = {
+struct ype selector[] = {
 {"%c", printc},
 {"%s", printstr},
 {"%d", printint},
